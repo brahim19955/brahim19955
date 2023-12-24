@@ -1,0 +1,85 @@
+
+=================================================================================
+2023-12-24 13:41:29.015Z: Configuration starting...
+2023-12-24 13:41:29.070Z: Using image: mcr.microsoft.com/devcontainers/universal
+
+=================================================================================
+2023-12-24 13:41:29.079Z: Creating container...
+2023-12-24 13:41:29.525Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --skip-non-blocking-commands --skip-post-create --expect-existing-container --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2023-12-24 13:41:29.718Z: @devcontainers/cli 0.52.1. Node.js v18.17.1. linux 6.2.0-1018-azure x64.
+2023-12-24 13:41:41.577Z: Outcome: success User: codespace WorkspaceFolder: /workspaces
+2023-12-24 13:41:41.585Z: devcontainer process exited with exit code 0
+2023-12-24 13:41:41.872Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --expect-existing-container --prebuild --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2023-12-24 13:41:42.040Z: @devcontainers/cli 0.52.1. Node.js v18.17.1. linux 6.2.0-1018-azure x64.
+2023-12-24 13:41:42.436Z: Running the updateContentCommand from devcontainer.json...
+
+2023-12-24 13:41:42.437Z: python3 -m pip install -r requirements.txt
+2023-12-24 13:41:55.827Z: ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+2023-12-24 13:41:55.848Z: 
+[notice] A new release of pip is available: 23.3.1 -> 23.3.2
+[notice] To update, run: pip install --upgrade pip
+2023-12-24 13:41:55.896Z: updateContentCommand failed with exit code 1. Skipping any further user-provided commands.
+
+2023-12-24 13:41:55.898Z: Error: Command failed: /bin/sh -c python3 -m pip install -r requirements.txt
+2023-12-24 13:41:55.899Z: {"outcome":"error","message":"Command failed: /bin/sh -c python3 -m pip install -r requirements.txt","description":"The updateContentCommand in the devcontainer.json failed.","containerId":"60c713fa0527e7bc12ea025a3e72adb5a9e7c40678b5879796e6032f5bcf0df6"}
+2023-12-24 13:41:55.899Z:     at WY (/.codespaces/agent/bin/node_modules/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js:235:130)
+2023-12-24 13:41:55.899Z:     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-12-24 13:41:55.900Z:     at async bl (/.codespaces/agent/bin/node_modules/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js:227:4393)
+2023-12-24 13:41:55.901Z:     at async Ll (/.codespaces/agent/bin/node_modules/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js:227:3738)
+2023-12-24 13:41:55.901Z:     at async vl (/.codespaces/agent/bin/node_modules/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js:227:2814)
+2023-12-24 13:41:55.902Z:     at async Js (/.codespaces/agent/bin/node_modules/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js:227:2386)
+2023-12-24 13:41:55.902Z:     at async QAA (/.codespaces/agent/bin/node_modules/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js:462:1496)
+2023-12-24 13:41:55.903Z:     at async kK (/.codespaces/agent/bin/node_modules/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js:462:964)
+2023-12-24 13:41:55.903Z:     at async NAA (/.codespaces/agent/bin/node_modules/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js:479:3660)
+2023-12-24 13:41:55.904Z:     at async vC (/.codespaces/agent/bin/node_modules/@devcontainers/cli/dist/spec-node/devContainersSpecCLI.js:479:4775)
+2023-12-24 13:41:55.907Z: devcontainer process exited with exit code 1
+
+=================================================================================
+2023-12-24 13:41:55.916Z: Configuring codespace...
+
+=================================================================================
+2023-12-24 13:41:55.921Z: Finished configuring codespace.
+
+=================================================================================
+2023-12-24 13:50:30.381Z: Configuration starting...
+2023-12-24 13:50:30.398Z: Checking out...
+2023-12-24 13:50:30.417Z: Using image: mcr.microsoft.com/devcontainers/universal
+
+=================================================================================
+2023-12-24 13:50:30.441Z: Creating container...
+2023-12-24 13:50:30.872Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/codespaces-jupyter --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --skip-non-blocking-commands --skip-post-create --expect-existing-container --config "/var/lib/docker/codespacemount/workspace/codespaces-jupyter/.devcontainer/devcontainer.json" --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2023-12-24 13:50:31.036Z: @devcontainers/cli 0.52.1. Node.js v18.17.1. linux 6.2.0-1018-azure x64.
+2023-12-24 13:50:31.354Z: Outcome: success User: codespace WorkspaceFolder: /workspaces/codespaces-jupyter
+2023-12-24 13:50:31.365Z: devcontainer process exited with exit code 0
+
+=================================================================================
+2023-12-24 13:50:32.926Z: Running blocking commands...
+2023-12-24 13:50:32.964Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/codespaces-jupyter --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --user-data-folder /var/lib/docker/codespacemount/.persistedshare --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --omit-config-remote-env-from-metadata --skip-non-blocking-commands --expect-existing-container --config "/var/lib/docker/codespacemount/workspace/codespaces-jupyter/.devcontainer/devcontainer.json" --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2023-12-24 13:50:33.168Z: @devcontainers/cli 0.52.1. Node.js v18.17.1. linux 6.2.0-1018-azure x64.
+2023-12-24 13:50:33.456Z: Outcome: success User: codespace WorkspaceFolder: /workspaces/codespaces-jupyter
+2023-12-24 13:50:33.471Z: devcontainer process exited with exit code 0
+
+=================================================================================
+2023-12-24 13:50:33.485Z: Configuring codespace...
+2023-12-24 13:50:33.551Z: $ cp -r /root/.docker /var/lib/docker/codespacemount/.persistedshare
+2023-12-24 13:50:33.577Z: cp process exited with exit code 0
+2023-12-24 13:50:33.585Z: $ rm -rf /home/codespace/.docker
+2023-12-24 13:50:33.673Z: rm process exited with exit code 0
+2023-12-24 13:50:33.674Z: $ ln -sfn /workspaces/.codespaces/.persistedshare/.docker /home/codespace/.docker
+2023-12-24 13:50:33.712Z: ln process exited with exit code 0
+2023-12-24 13:50:33.715Z: $ chown -R codespace /workspaces/.codespaces/.persistedshare/.docker
+2023-12-24 13:50:33.778Z: chown process exited with exit code 0
+
+=================================================================================
+2023-12-24 13:50:33.783Z: Running commands...
+2023-12-24 13:50:33.800Z: $ devcontainer up --id-label Type=codespaces --workspace-folder /var/lib/docker/codespacemount/workspace/codespaces-jupyter --expect-existing-container --skip-post-attach --mount type=bind,source=/.codespaces/agent/mount/cache,target=/vscode --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --log-level trace --log-format json --update-remote-user-uid-default never --mount-workspace-git-root false --config "/var/lib/docker/codespacemount/workspace/codespaces-jupyter/.devcontainer/devcontainer.json" --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --container-session-data-folder /workspaces/.codespaces/.persistedshare/devcontainers-cli/cache --secrets-file /root/.codespaces/shared/user-secrets-envs.json
+2023-12-24 13:50:33.964Z: @devcontainers/cli 0.52.1. Node.js v18.17.1. linux 6.2.0-1018-azure x64.
+2023-12-24 13:50:34.173Z: Running the postCreateCommand from Feature 'ghcr.io/devcontainers/features/git-lfs:1'...
+
+2023-12-24 13:50:34.177Z: /usr/local/share/pull-git-lfs-artifacts.sh
+2023-12-24 13:50:34.239Z: Fetching git lfs artifacts...
+2023-12-24 13:50:34.664Z: Outcome: success User: codespace WorkspaceFolder: /workspaces/codespaces-jupyter
+2023-12-24 13:50:34.679Z: devcontainer process exited with exit code 0
+
+=================================================================================
+2023-12-24 13:50:35.089Z: Finished configuring codespace.
